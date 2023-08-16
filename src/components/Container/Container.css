@@ -1,0 +1,85 @@
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .todo-content {
+    background-color: #ffffff61;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 400px; 
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .add-button:hover{
+    transform: scale(1.05);
+    background-color: #0066d2;
+  }
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .remove-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+  }
+  .remove-button:hover{
+    transform: scale(1.05);
+    background-color: #ba2837;
+  }
+  
+  .accordion-content {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  
+  .headingtodo{
+    font-weight: bolder;
+  }
+
+  
